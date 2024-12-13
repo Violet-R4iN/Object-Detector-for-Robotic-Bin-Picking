@@ -16,7 +16,7 @@ class CameraApp:
         self.image_path = None  # Variable to store the image path
         self.inferencing = False
         self.model = YOLO("weights\bestV3-OBB.pt")
-        self.current_weight_path = "weights\bestV3-OBB.pt"  # Default weight path
+        self.current_weight_path = "bestV3-OBB.pt"  # Default weight path
         self.selected_camera = None  # Variable to store selected camera
         self.cap = None  # VideoCapture object
 
